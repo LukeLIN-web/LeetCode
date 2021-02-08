@@ -7,7 +7,7 @@ class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
         unordered_map<char,int> m1;
-        unordered_map<char,int>::iterator it;
+        unordered_map<char,int>::iterator it;//  26 , const length , you can use the array to reduce overhead.
         for(char i : magazine){
             m1[i]++;// it auto insert if don't have,could simplfy if it != end then it->second++ ; 
         }
