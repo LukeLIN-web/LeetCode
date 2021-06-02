@@ -1,5 +1,8 @@
+from collections import deque
+from typing import List
 st = '9'
 str = "abc123"
+n=9
 l = [[0,2,2],[4,2,4],[2,13,1000000000]]
 for i in l:
     print(i)
@@ -13,3 +16,6 @@ for i in l:
 #     print( (int(i),i) )
 # t = Solution()
 # print(t.decodeString("10[we]"))
+degree = [i for i in range(8)]
+dq = deque([1,2,3])
+print(len(dq))
