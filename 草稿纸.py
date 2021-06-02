@@ -16,6 +16,8 @@ for i in l:
 #     print( (int(i),i) )
 # t = Solution()
 # print(t.decodeString("10[we]"))
+dict = {n %3: 0}
 degree = [i for i in range(8)]
 dq = deque([1,2,3])
-print(len(dq))
+
+print (2 in dict.keys())
