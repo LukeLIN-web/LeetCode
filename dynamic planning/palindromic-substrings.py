@@ -14,7 +14,7 @@
 #                         dp[i][j] = True
 #                         result +=1
 #                     else:
-#                         if dp[i+1][j-1] == True:
+#                         if dp[i+1][j-1] == True: # 和两边有关用dp
 #                             dp[i][j] = True
 #                             result +=1
 #         return result
