@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch MainDemo",
+            "request": "launch",
+            "mainClass": "parallelProgram.MainDemo",
+            "projectName": "LeetCode_867e6f8e"
+        },
+        {
             "name": "Python: 当前文件",
             "type": "python",
             "request": "launch",
