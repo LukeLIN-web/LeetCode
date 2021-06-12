@@ -35,8 +35,5 @@ class Solution:
     #print(decodeString("3[a]2[bc]"))
 t = Solution()
 print(t.decodeString("10[we]"))
-
-
-
             
 
