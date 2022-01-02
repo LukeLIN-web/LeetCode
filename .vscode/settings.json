@@ -10,6 +10,12 @@
         "string": "cpp",
         "iostream": "cpp",
         "algorithm": "cpp",
-        "new": "cpp"
-    }
+        "new": "cpp",
+        "ios": "cpp",
+        "type_traits": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "xiosbase": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
