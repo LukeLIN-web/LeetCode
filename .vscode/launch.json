@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "LeetCode_867e6f8e"
+        },
+        {
+            "type": "java",
             "name": "Launch MainDemo",
             "request": "launch",
             "mainClass": "parallelProgram.MainDemo",
